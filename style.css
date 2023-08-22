@@ -1,0 +1,81 @@
+#calc
+{
+    background-color: rgb(58,27,58);
+    position:relative;
+    height:330px;
+    width:280px;
+    box-shadow:0px 0px 10px black;
+    border-radius: 10px;
+    margin-top:70px;
+}
+#display
+{
+    width:70%;
+    background-color: black;
+    height:30px;
+    position:relative;
+    top:10px;
+    box-shadow:0px 0px 5px black;
+    border-radius: 10px;
+    color:yellow;
+    font-size:20px;
+    padding:2px;
+}
+.i
+{
+    background-color: cadetblue;
+    border:none;
+    margin:2px;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 10px;
+    font-size: 20px;
+    width:30px;
+    height:25px;
+}
+.i:hover
+{
+    background-color: rgb(255, 0, 0);
+    color:purple;
+
+}
+#clr
+{
+    width:30%;
+    height:30px;
+    background-color:yellow ;
+    text-align: center;
+    border: none;
+    border-radius:7px ;
+    font-size: 20px;
+}
+#equ
+{
+    width:15%;
+    height:30px;
+    background-color: yellow;
+    border:none;
+    border-radius: 7px;
+}
+#equ:hover,#clr:hover,#back:hover
+{
+    background-color: black;
+    color:yellow;
+
+}
+#a
+{
+    color:crimson;
+    font-size: 50px;
+    position:relative;
+    left:640px;
+    text-shadow: 0px 0px 5px black;
+    font-style:normal;
+}
+#back
+{
+    width:20%;
+    height:30px;
+    background-color: yellow;
+    border:none;
+    border-radius: 7px;
+}

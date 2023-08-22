@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="b">
+    <h1 id="a">Calculator!!!</h1>
+    <center>
+        <div id="calc">
+            <form id="calculator" name="cform">
+                <input id="display" type="text" name="answer">
+                <br><br>
+                <input type="button" value="1" class="i" onclick="cform.answer.value +='1'">
+                <input type="button" value="2" class="i" onclick="cform.answer.value +='2'">
+                <input type="button" value="3" class="i" onclick="cform.answer.value +='3'">
+                <input type="button" value="+" class="i" onclick="cform.answer.value +='+'">
+                <br><br>
+                <input type="button" value="4" class="i" onclick="cform.answer.value +='4'">
+                <input type="button" value="5" class="i" onclick="cform.answer.value +='5'">
+                <input type="button" value="6" class="i" onclick="cform.answer.value +='6'">
+                <input type="button" value="-" class="i" onclick="cform.answer.value +='-'">
+                <br><br>
+                <input type="button" value="7" class="i" onclick="cform.answer.value +='7'">
+                <input type="button" value="8" class="i" onclick="cform.answer.value +='8'">
+                <input type="button" value="9" class="i" onclick="cform.answer.value +='9'">
+                <input type="button" value="*" class="i" onclick="cform.answer.value +='*'">
+                <br><br>
+                <input type="button" value="/" class="i" onclick="cform.answer.value +='/'">
+                <input type="button" value="0" class="i" onclick="cform.answer.value +='0'">
+                <input type="button" value="." class="i" onclick="cform.answer.value +='.'">
+                <input type="button" value="%" class="i" onclick="cform.answer.value +='%'">
+                <br><br>
+                <input type="button" value="Clear" id="clr" onclick="cform.answer.value =' '">
+                <input type="button" value="=" id="equ" onclick="cform.answer.value =eval(cform.answer.value)">
+                <input type="button" value="Back" id="back" onclick="cform.answer.value =' '">
+                </form>
+        </div>
+    </center>
+    
+</body>
+</html>
